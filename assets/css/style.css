@@ -1,0 +1,167 @@
+/* im header bg image 100vh */
+
+/* main: 
+margin: 0 auto; 
+article: breite geben, text-align:center;*/
+
+/* article mit contact: größe geben, text-align center etc
+über nummer: hover */
+
+/* Google-Fonts: Open Sans, sans-serif; Fredericka the Great, cursive */
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: url(/assets/img/Lev3_2_css-einführung_box-model_img.jpeg) no-repeat center/300%;
+    background-size: cover;
+    color:aliceblue;
+    height: 100vh;
+}
+
+h1,h2,h3{
+    font-family: 'Fredericka the Great', cursive;
+}
+
+p,a{
+    font-family: 'Open Sans', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+h1{
+    padding: 0 0 0 5em;
+}
+
+header>article{
+    text-align: center;
+    width: 300px;
+    margin: 12% auto;
+}
+
+h2{
+    font-size: 2em;
+    line-height: 1.2em;
+}
+
+header>article>p{
+    margin: 1em auto 1em auto;
+}
+
+header>article>a{
+    color: aliceblue;
+    padding: 3% 8%;
+    border:1px solid aliceblue;
+    border-radius: 2px;
+    background: none;
+}
+
+header>article>a:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+header nav ul{
+    text-align: right;
+    margin: 0 3%;
+    list-style: none;
+    line-height: 2rem;
+}
+
+li>a{
+    color:aliceblue;
+}
+
+li>a:hover{
+    text-decoration: underline;
+    color: rgb(105, 104, 104);
+}
+
+main{
+    text-align: center;
+    height: 30%;
+    margin: 0 auto 8% auto;
+}
+
+main>section{
+    width: 30%;
+    margin: 0 auto 0 auto;
+}
+
+h3{
+    margin-bottom: 5%;
+    margin-top: 10vh;
+    font-weight: 900;
+    font-size: 1.5em;
+}
+
+main>section>article{
+    width: 20%;
+    margin: 5% auto;
+    border-style: double ;
+    border-radius: 5px;
+    border-color: black;
+    padding: 2% 5%;
+    line-height: 1.5em;
+}
+
+main>section>article>a{
+    list-style: none;
+    color: black;
+    font-size: 0.8em;
+}
+
+main>section>article>a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: rgb(65, 65, 95);
+    height: 10%;
+    color: aliceblue;
+    margin: 1% 0 0 0;
+    padding: 1% 1%;
+}
+
+footer>p{
+    width: 60vh;
+}
+
+footer>article{
+    width: 10%;
+    margin: 1% 0 0 0;
+}
+
+footer>article>a{
+    border: 1px solid aliceblue;
+    border-radius: 2px;
+    text-align: center;
+    padding: 0 15%;
+    color: aliceblue;
+    width: 10%;
+}
+
+
+footer>article>a:hover{
+    color: black;
+    background-color: aliceblue;
+}
+
+
+footer>nav{
+    text-align: right;
+}
+
+footer>nav>a{
+    color: aliceblue;
+    margin: 0 0 0 2%;
+}
+
+footer>nav>a:hover{
+    text-decoration: underline;
+    color: rgb(105, 104, 104);
+}
